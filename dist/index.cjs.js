@@ -2926,6 +2926,7 @@ var dark$1 = (_b = {},
 
 var light$2 = {
     background: lightColors.card,
+    border: "1px solid #BBBBBB",
     boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     boxShadowActive: shadows.active,
     boxShadowSuccess: shadows.success,
@@ -2935,6 +2936,7 @@ var light$2 = {
 };
 var dark$2 = {
     background: darkColors.card,
+    border: "1px solid #666666",
     boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     boxShadowActive: shadows.active,
     boxShadowSuccess: shadows.success,
