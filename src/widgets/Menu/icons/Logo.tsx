@@ -10,7 +10,7 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
   const textColor = isDark ? "#FFFFFF" : "#000000";
   return (
     <Svg viewBox="0 0 205 26" {...props}>
-      <image width="255" height="32" href={isDark ? '/images/aloe/LogoTextNewDark.png' : '/images/aloe/LogoTextNewWhite.png'}/>
+      <image width="205" height="32" href={isDark ? '/images/aloe/LogoTextNewDark.png' : '/images/aloe/LogoTextNewWhite.png'}/>
     </Svg>
   )
 };
